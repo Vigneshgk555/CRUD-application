@@ -22,7 +22,7 @@ public class UserController {
         return "list";
     }
 
-    @RequestMapping("/save")
+    @RequestMapping("/vicky")
     public String method1(User user){
         userv.saveuser(user);
         return "login";
